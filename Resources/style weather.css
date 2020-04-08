@@ -1,0 +1,116 @@
+.card-text {
+  font-size: 14px;
+  margin: 16px 0;
+  font-family: Helvetica;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  line-height: 2.5;
+  padding: 20px 20px;
+}
+
+.body {
+  background-color: #F2F2F2;
+}
+
+.card-deck{
+  margin: 16px 0;
+  padding: 100px 20px;
+
+}
+
+.card-title{
+  font-family: "Garamond", sans-serif;
+  font-size: 30px; 
+  color: rgb(18, 170, 175);
+  font-weight: bold;
+}
+
+.navbar-light .navbar-brand {
+color: white;
+font-family: " Georgia, Times, serif";
+letter-spacing: 0.05em;
+background-color: #4aaaa5;
+font-weight: bold;
+font-size: 30px; 
+padding: 10px 10px;
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+ 
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #666;
+  color: white;
+  text-align: center;
+}
+
+.row{
+  margin: 16px 0;
+  padding: 100px 20px;
+
+}
+
+.description-header {
+  margin: 16px 0;
+  padding: 20px 10px;
+}
+
+sup.reference {
+  unicode-bidi: -moz-isolate;
+  unicode-bidi: -webkit-isolate;
+  unicode-bidi: isolate;
+  white-space: nowrap;
+  font-weight: normal;
+  font-style: normal;
+}
+sup, sub {
+  line-height: 1;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 150px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #ededed;
+}
+
+.description-header {
+ 
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #4aaaa5;
+}
+.description-content {
+  padding: 30px;
+  margin-top: 32px;
+  background-color: #fff;
+}
+.description-content > p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: slategray;
+}
+.description-text {
+  padding-bottom: 20px;
+}
+.comparison-image:hover {
+  opacity: 0.6;
+}
+.comparison-header {
+  margin-bottom: 10px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4aaaa5;
+  text-align: center;
+}
