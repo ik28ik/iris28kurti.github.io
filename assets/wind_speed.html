@@ -6,55 +6,57 @@
         
         <!-- Bootstrap CSS -->
         <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="Resources/style weather.css">
-        <title>WeatherPy</title>
+        <link rel="stylesheet" type="text/css" href="../Resources/style weather.css">
+        <title>Wind Speed-WeatherPy</title>
     </head>
     <body>
+     
 
-        
-      
       <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
         <div class='container-fluid'>
         <div class="navbar-header">
           <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
          </button>
-        <a href="index.html" class="navbar-brand">Lattitude</a>
+        <a href="../index.html" class="navbar-brand">Lattitude</a>
       </div>
     
            <ul class="nav navbar-nav navbar-right">
             
             <li class="nav-item dropdown">
               <a  class="nav-link dropdown-toggle" data-toggle="dropdown">Plots</a>
-             
+              
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a href="assets/max_temperature.html" class="dropdown-item">Max Temperature</a>
-                <a href="assets/humidity.html" class="dropdown-item">Humidity</a>
-                <a href="assets/cloudiness.html" class="dropdown-item">Cloudiness</a>
-                <a href="assets/wind_speed.html" class="dropdown-item">Wind Speed</a>
+                <a href="max_temperature.html" class="dropdown-item">Max Temperature</a>
+                <a href="humidity.html" class="dropdown-item">Humidity</a>
+                <a href="cloudiness.html" class="dropdown-item">Cloudiness</a>
+                <a href="wind_speed.html" class="dropdown-item">Wind Speed</a>
               </div>
             </li>
             <li class="navbar-item">
-              <a href="assets/comparison.html" class="nav-link">Comparison</a>
+              <a href="comparison.html" class="nav-link">Comparison</a>
           </li>
           <li class="navbar-item">
-            <a href="assets/data.html" class="nav-link">Data</a>
+            <a href="data.html" class="nav-link">Data</a>
           </li>
           </ul>
           </div>
       </nav>
-    
+
 
         <div class="card-deck">
             <div class="col-sm-7">
               <div class="card">
                 <div class="card-body">
-                  <h1 class="card-title">Summary: Lattitude vs. X</h1>
+                  <h5 class="card-title">Wind Speed</h5>
                   <hr></hr>
-                  <img class="rounded float-left" alt= "Max Temperature Plot" width="300" height="300" src="assets/Fig1.png">
-                  <p class="card-text">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled the data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                      <br></br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at included: 
-                    Temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                  <img class="card-img-top" alt="Wind Speed Plot"  src="Fig4.png">
+                  <p class="card-text">Wind speed, or wind flow speed, is a fundamental atmospheric quantity caused by air moving from high to low pressure, usually due to changes in temperature. 
+                    Wind speed affects weather forecasting, aviation , and maritime operations, construction projects, growth and metabolism rate of many plant species, and has countless other implications.
+                    <sup id="cite_ref -1" class= "reference"> 
+                       <a taget="_blank" href = " https://en.wikipedia.org/wiki/Wind_speed">[1]</a> 
+                    </sup>
+                    <br></br>
+                    The above plot shows that there is no direct correlation between latitude and wind speed.
                     </p>
                   
                 </div>
@@ -64,24 +66,20 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Visualizations</h5>
-                  <a target="_blank" href="assets/max_temperature.html"> <img class="rounded float-left" alt= "Max Temperature Plot" width="200" height="200" src="assets/Fig1.png"></a>
-                  <a target="_blank" href="assets/humidity.html"> <img class="rounded float-left" alt= "Humidity Plot" width="200" height="200" src="assets/Fig2.png"></a>
-                  <a target="_blank" href="assets/cloudiness.html"> <img class="rounded float-left" alt= "Cloudiness Plot" width="200" height="200" src="assets/Fig3.png"></a>
-                  <a target="_blank" href="assets/wind_speed.html"> <img class="rounded float-left" alt= "Wind Speed Plot" width="200" height="200" src="assets/Fig4.png"></a>
+                  <hr></hr>
+                  <a target="_blank" href="max_temperature.html"> <img class="rounded float-left" alt= "Max Temperature Plot" width="200" height="200" src="Fig1.png"></a>
+                  <a target="_blank" href="humidity.html"> <img class="rounded float-left" alt= "Humidity Plot" width="200" height="200" src="Fig2.png"></a>
+                  <a target="_blank" href="cloudiness.html"> <img class="rounded float-left" alt= "Cloudiness Plot" width="200" height="200" src="Fig3.png"></a>
+                  <a target="_blank" href="wind_speed.html"> <img class="rounded float-left" alt= "Wind Speed Plot" width="200" height="200" src="Fig4.png"></a>
+                  
                 </div>
               </div>
             </div>
           </div>
-        
           <footer>
             <p>Copyright Coding Bootcamp 2017</p>
-          </footer>  
-              
-           
-            
-            
-
-        <!-- Optional JavaScript -->
+          </footer>
+ <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
