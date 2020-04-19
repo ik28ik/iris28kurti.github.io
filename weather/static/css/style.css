@@ -1,0 +1,19 @@
+html,
+body,
+#map-id {
+  height: 100%;
+  padding: 1;
+  margin: 20;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.jumbotron {
+  background-color: steelblue;
+  color: white;
+  
+}
+
+h1 {
+  font-weight: bolder;
+}
