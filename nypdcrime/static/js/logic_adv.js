@@ -83,7 +83,7 @@ var icons = {
   OTHER: L.ExtraMarkers.icon({
     icon: "ion-minus-circled",
     iconColor: "yellow",
-    markerColor: "green",
+    markerColor: " #ffffff",
     shape: "circle"
   })
 };
