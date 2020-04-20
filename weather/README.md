@@ -6,3 +6,5 @@ I created a visualization dashboard website using visualizations I have created 
 
 In building this dashboard, I created individual pages for each plot to navigate between them. These pages contain the visualizations and their corresponding explanations. There is also a landing page, where you can see a comparison of all of the plots, and another page where you can view the data used to build them.
 
+**Link to Deployed project:**
+[Weather](https://iris28kurti.github.io/weather/index.html)
