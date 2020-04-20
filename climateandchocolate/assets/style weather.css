@@ -25,10 +25,16 @@
   color: rgba(90, 77, 43, 0.712);
   font-weight: bold;
 }
+.navbar-item {
+  font-family: "Garamond", sans-serif;
+  font-size: 15px; 
+  color: rgba(90, 77, 43, 0.712);
+  font-weight: bold;
+}
 
 .nav-link{
 color: white;
-font-family: " Georgia, Times, serif";
+font-family: "Garamond, sans-serif";
 letter-spacing: 0.05em;
 font-weight: bold;
 font-size: 25px; 
@@ -36,7 +42,7 @@ font-size: 25px;
 
 .navbar-light .navbar-brand {
 color: white;
-font-family: " Georgia, Times, serif";
+font-family: " Garamond, sans-serif";
 letter-spacing: 0.05em;
 background-color: rgba(90, 77, 43, 0.712);
 font-weight: bold;
