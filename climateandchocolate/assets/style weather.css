@@ -6,13 +6,11 @@
   letter-spacing: 0.02em;
   line-height: 1.5;
   padding: 20px 20px;
-  
 }
 
 .card-deck{
   margin: 8px 0;
   padding: 100px 20px;
-
 }
 
 .card-body{
@@ -27,6 +25,7 @@
   color: rgba(90, 77, 43, 0.712);
   font-weight: bold;
 }
+
 .nav-link{
 color: white;
 font-family: " Georgia, Times, serif";
@@ -43,7 +42,6 @@ background-color: rgba(90, 77, 43, 0.712);
 font-weight: bold;
 font-size: 30px; 
 padding: 10px 10px;
-
 }
 
 footer {
