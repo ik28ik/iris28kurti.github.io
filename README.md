@@ -9,7 +9,7 @@ This repo contains websites that I created to show the results of different proj
 
 **Link to Project:**
 
-https://iris28kurti.github.io/SpotifyPopularity/index.html
+https://iris28kurti.github.io/SpotifyPopularity/templates/index.html
 
 https://iris28kurti.github.io/climateandchocolate/index.html
 
