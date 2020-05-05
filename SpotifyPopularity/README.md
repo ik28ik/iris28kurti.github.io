@@ -26,7 +26,7 @@ The only features that show some correlation are loudness, acousticness and ener
 
 We used classification algorithms to predict whether a song will be popular or not. We used historical data to train the  model and built a prediction model by regression. The 3 models we used are: Linesr Regression, OLS Regression and Classification Model.
 
-![static/images/Model_Performance.png](static/images/Regression/Model_Performance.png)
+![static/images/Model_Performance.png](static/images/Model_Performance.png)
 
 
 
