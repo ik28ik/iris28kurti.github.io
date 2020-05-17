@@ -1,0 +1,118 @@
+.card-text {
+  font-size: 14px;
+  margin: 5px 0;
+  font-family:  Verdana, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  word-spacing: 0.02em;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  padding: 20px 20px;
+}
+
+.card-deck{
+  margin-top: 80px;
+  margin-bottom: 1px;
+  margin-right: 1px;
+  margin-left: 1px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.card-body{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 20px;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+.card-title{
+  font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px; 
+  color:  rgba(90, 77, 43, 0.712);
+  font-weight: bold;
+}
+
+.container-fluid{
+  margin-top: .1px;
+  margin-bottom: .1px;
+  margin-right: .1px;
+  margin-left: .1px;
+  padding-top: .1px;
+  padding-bottom: .1px;
+  padding-right: .1px;
+  padding-left: .1px;
+}
+
+.navbar-item {
+  font-family: Tahoma, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px; 
+  color: rgba(90, 77, 43, 0.712);
+  font-weight: bold;
+}
+
+.nav-link{
+color:  rgba(90, 77, 43, 0.712);
+font-family:  Tahoma, Arial, "Helvetica Neue", Helvetica, sans-serif;
+letter-spacing: 0.05em;
+font-weight: bold;
+font-size: 25px; 
+padding: 0.5px 0.5px;
+}
+
+.navbar-light .navbar-brand {
+color:  rgba(90, 77, 43, 0.712);
+font-family:  Tahoma, Arial, "Helvetica Neue", Helvetica, sans-serif;
+letter-spacing: 0.05em;
+font-weight: bold;
+font-size: 25px; 
+padding: 0.5px 0.5px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #666;
+  color: white;
+  text-align: center;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 1px;
+  font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #ededed;
+}
+
+/* p.image-text  {text-align: justify;
+} */
+
+.image-text {
+  position: relative;
+  /* top: 50%; */
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.img-with-text{
+  
+  margin-left: 80px;
+  margin-right: 80px;
+}

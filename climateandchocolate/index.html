@@ -6,7 +6,7 @@
         
         <!-- Bootstrap CSS -->
         <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/style weather.css">
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
         <title>Climate and Chocolate</title>
     </head>
     <body>
@@ -19,18 +19,16 @@
         <a href="index.html" class="navbar-brand">Climate and Chocolate</a>
       </div>
            <ul class="nav navbar-nav navbar-right">            
-          <li class="navbar-item">
-            <a href="assets/more_analysis.html" class="nav-link"><strong>More Analysis</strong></a>
-          </li>
+          
             <li class="navbar-item">
-            <a target="_blank" href="https://github.com/re-ga-na/ClimateAndChocolate/tree/iris_branch" class="nav-link"><strong>GitHub Link</strong></a>           
+            <a target="_blank" href="https://github.com/re-ga-na/ClimateAndChocolate/tree/iris_branch" class="nav-link"><strong>GitHub</strong></a>           
           </li>
           </ul>
           </div>
       </nav>
     
         <div class="card-deck">
-            <div class="col-sm-6">
+            <div class="col-sm-12">
               <div class="card">
                 <div class="card-body">
                   <h1 class="card-title">Chocolate</h1>
@@ -53,13 +51,14 @@
                      <br></br>
                      <h5><strong>General Conclusions</strong></h5>
                      <ul>
-                      <li>The best rated chocolate comes from the Criollo bean.</li>
+                      <li>The best rated chocolate comes from the Trinitario bean.</li>
                       <li>Countries that grow cacao for chocolate production are generally poorer than the countries where chocolate companies are headquartered.</li>                      
                       <li>In some cacao growing countries, recent temperature readings have occurred outside of the ideal temperature range for cacao viability.</li>
                      </ul>
                      <h5><strong>Difficulties</strong></h5>
                      <ul>
-                      <li>We have chocolate dates from 2006 to 2017, but our climate data only goes up to 2013. Given that the past several years have been the hottest on record, our predictions for the future of cacao's viability in its growing climates would be enriched with more recent information.</li>
+                      <li>We have chocolate dates from 2006 to 2017, but our climate data only goes up to 2013. Given that the past several years have been the hottest on record, 
+                        our predictions for the future of cacao's viability in its growing climates would be enriched with more recent information.</li>
                       <li>Missing data and small data sets served as a barrier for hypothesis testing.</li>                                           
                      </ul>
                      <h5><strong>Additional Inquiry</strong></h5>
@@ -73,18 +72,67 @@
               </div>
             </div>
 
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
+            <div class="card-deck">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-body">
                   <h1 class="card-title">Analysis</h1>
                   <hr></hr>
-                  <img class="rounded float-left" alt= "Average_rating_per_year_all_beans" width="275" height="200" src="assets/Average_rating_per_year_all_beans.png">
-                  <img class="rounded float-left" alt= "Average_rating_per_type_of_bean" width="275" height="200" src="assets/Average_rating_per_type_of_bean.png">
-                  <img class="mx-auto d-block" alt= "Average_rating_of_the_Top_5_countries_by_higher_consistent_rating_by_year" width="400" height="250" src="assets/Average_rating_of_the_Top_5_countries_by_higher_consistent_rating_by_year.png">
-                  <img class="rounded float-left" alt= "Counts_of_ratings_vs_bean_origin_GDPs" width="275" height="200" src="assets/Counts_of_ratings_vs_bean_origin_GDPs.png">
-                  <img class="rounded float-left" alt= "Ratings_vs_bean_origin_GDPs" width="275" height="200" src="assets/Ratings_vs_bean_origin_GDPs.png">
-                  <img class="rounded float-left" alt= "Monthly Temperature" width="550" height="250" src="assets/Monthly Temperature.png">
-                  <img class="rounded float-left" alt= "Yearly Temperature" width="550" height="250" src="assets/Yearly Temperature.png">
+                  
+                  <p>After cleaning the dataset, we learned that 1,795 chocolate bars sold in 60 different countries were rated from 2006 to 2017. 
+                    Most of the chocolate bars received a rating between 3.0 to 3.5. Only two chocolate bars received the highest rating of 5. 
+                    The Rating System is as follows:
+                    <br></br>
+                    <ul>
+                      <li>5 = Elite (Transcending beyond the ordinary limits)</li>
+                      <li>4 = Premium (Superior flavor development, character, and style)</li>
+                      <li>3 = Satisfactory(3.0) to praiseworthy(3.75) (well made with special qualities)</li>
+                      <li>2 = Disappointing (Passable but contains at least one significant flaw)</li>
+                      <li>1 = Unpleasant (mostly unpalatable)</li>
+                    </ul>
+                  </p> 
+                    <img class="img-with-text" alt= "Total Number of Rated Chocolate Bars"  src="assets/Total Number of Rated Chocolate Bars.png">
+                    <img class="img-with-text" alt= "Average_rating_per_year_all_beans"  src="assets/Average_rating_per_year_all_beans.png">
+                    
+                
+                    <br></br>
+                
+                    <p class="card-text">The data observed is based mainly on the customer preference of chocolate bars. However, one of the essential ingredients of a chocolate bar is the cocoa bean. 
+                    Most of the chocolate has been produced using 70 to 75 percent of cocoa, as expected manufacturers are choosing not to produce chocolate of 100% cocoa to 
+                    satisfy consumer taste. These dark bars are the richest, and perhaps won’t give you a sugar rush, as they would not have many other ingredients to 
+                    mask the taste of cocoa and taste more bitter.
+                  </p>
+                    <img class="img-with-text" alt= "Count of Cocoa Percentage"  src="assets/Count of Cocoa Percentage.png">
+                    <img class="img-with-text" alt= "Most Comon Percentage of cocoa in Chocolate Bars"  src="assets/Most Comon Percentage of cocoa in Chocolate Bars.png">
+                  
+                
+                    <p>One of the questions we tried to answer is where the best cocoa is grown and sold after refinement. When we looked at where the cocoa bean comes from, we found a couple of different things: 
+                      <ol>
+                        <li>Most of the rated chocolate bars used cocoa beans that are grown in South America, except for Madagascar. </li>
+                        <li>We also used the GDP dataset, which determined that the beans come from poorer countries, and the final product is consumed in countries with higher GDP.</li>
+                      </ol>
+
+                      <img class="img-with-text" alt= "Top 10 Countries That Produce the Most Rated Chocolate Bars"  src="assets/Top 10 Countries That Produce the Most Rated Chocolate Bars.png">
+                      <img class="img-with-text" alt= "average_ratings_vs_GDPs_by_bean_origin_country" width="400" height="300" src="assets/average_ratings_vs_GDPs_by_bean_origin_country.png">
+                      <img class="img-with-text" alt= "Top 10 Countries That Sell the Most Rated Chocolate Bars"  src="assets/Top 10 Countries That Sell the Most Rated Chocolate Bars.png">
+                      <img class="img-with-text" alt= "ratings_vs_GDP_of_producers_company_location" width="400" height="300" src="assets/ratings_vs_GDP_of_producers_company_location.png">
+                    </p>
+                    <p>As we can see from the graphs, the number one grower is Venezuela, followed by Ecuador, Peru, and the Dominican Republic, and the number one seller are the United States of America, followed by France and Canada. </p>
+                    <p>We also looked at what bean types do we have and found that the most rated bean is Trinitario, followed by Forastero and Criollo.
+                    <img class="img-with-text" alt= "Top 10 Beans used to produce the Most Rated Chocolate Bars"  src="assets/Top 10 Beans used to produce the Most Rated Chocolate Bars.png">
+                    <img class="img-with-text" alt= "Average_rating_of_the_Top_5_countries_by_higher_consistent_rating_by_year"  src="assets/Average_rating_of_the_Top_5_countries_by_higher_consistent_rating_by_year.png">
+                    <img class="center" alt= "Average_rating_per_type_of_bean"  src="assets/Average_rating_per_type_of_bean.png" >
+                  </p>
+                    <p>One other question we tried to answer was, is climate change impacting cocoa beans?
+                      <br></br>
+                      Cocoa plants thrive in regions where temperatures stay within the range of 21ºC to 30ºC. Top cacao growing countries are vulnerable to climate change. On average, temperatures in these nine countries 
+                      rose by 0.21 degrees Celsius between 1992 to 2012. The warmer it gets the more in danger the cocoa plants can be. 
+                      <br></br>
+                   
+                                 
+                  <img class="center" alt= "Monthly Temperature"  src="assets/Monthly Temperature.png">
+                  <img class="center" alt= "Yearly Temperature"  src="assets/Yearly Temperature.png">
+                </p>
                 </div>
               </div>
             </div>
